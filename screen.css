@@ -24,9 +24,45 @@ body {
 ol, ul {
   list-style: none; }
 
+div#main {
+  height: 750px;
+  width: auto;
+  background-image: url("IMG_3290.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div#top {
+  text-align: center;
+  font-size: 2em;
+  margin: auto;
+  height: 256px;
+  width: 90%;
+  background: orange;
+}
+
+div#bottom {
+  text-align: center;
+  font-size: 1em;
+  margin: auto;
+  height: 256px;
+  width: 75%;
+  background: blue;
+}
+
 h1 {
-  font-size: 7em;
-  color: #ff69b4;
+  text-align: center;
+  font-size: 5em;
+  color: crimson;
+}
+
+p#paragraph {
+  color: green;
+}
+
+p#para {
+ color: white;
 }
 
 table {
